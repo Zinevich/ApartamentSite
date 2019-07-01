@@ -1,17 +1,17 @@
 import NavMenu from '../../layouts/NavMenu';
-import Home from '../../views/home/Home';
+import HomePage from '../../views/home/HomePage';
 
 export default [
     {
         name: 'home',
         path: '/home',
         component: NavMenu,
-        redirect: '/home/Home',
+        redirect: '/home/HomePage',
         children: [
             {
-                name: 'Home',
-                path: 'Home',
-                component: Home
+                name: 'HomePage',
+                path: 'HomePage',
+                component: HomePage
             }
         ]
     }

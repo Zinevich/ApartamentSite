@@ -1,7 +1,11 @@
-import Home from './home';
+import HomePage from './homePage';
 import About from './about';
+import Rent from './rent';
+import Sale from './sale'
 
 export default [].concat(
-    Home,
-    About
+    HomePage,
+    About,
+    Rent,
+    Sale
 )
